@@ -20,14 +20,14 @@ def angle(p1,pcheck,p2):
 
 # Fungsi untuk mencari distance
 def distance(p1,pcheck,p2):
-    x1, x2, x3 = p1[0], p2[0], pcheck[0]
-    y1, y2, y3 = p1[1], p2[1], pcheck[1]
-    #Mencari persamaan ax + by + c = 0
-    a, b, c = -(y2-y1), (x2-x1), -(x2-x1)*y1 + (y2-y1)*x1
-    # Rumus mencari distance dari persamaan garis ax + by + c = 0 
-    # Distance = abs(a*x + b*y + c)/sqrt(a*a + b*b)
-    return abs(a*x3 + b*y3 + c)/sqrt(a*a + b*b)
-   
+        x1, x2, x3 = p1[0], p2[0], pcheck[0]
+        y1, y2, y3 = p1[1], p2[1], pcheck[1]
+        #Mencari persamaan ax + by + c = 0
+        a, b, c = -(y2-y1), (x2-x1), -(x2-x1)*y1 + (y2-y1)*x1
+        # Rumus mencari distance dari persamaan garis ax + by + c = 0 
+        # Distance = abs(a*x + b*y + c)/sqrt(a*a + b*b)
+        return abs(a*x3 + b*y3 + c)/sqrt(a*a + b*b)
+    
 # Fungsi untuk membagi bagian S menjadi S1 dan S2 berdasarkan garis p1p2
 def divide(S,p1,p2):
     S1 = [] #sebelah atas
@@ -127,6 +127,6 @@ def myConvexHull(bucket):
 
     # Mengubah list menjadi nparray
     if (index_convex_hull != []):
-        index_convex_hull = np.vstack(index_convex_hull)
+            index_convex_hull = np.vstack(index_convex_hull)
 
     return index_convex_hull
