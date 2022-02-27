@@ -12,7 +12,7 @@
 <!-- * [License](#license) -->
 
 ## Informasi Umum
-Membuat program untuk mencari _convex hull_ dari suatu dataset dengan memanfaatkan algoritma divide and conquer <br /> <br />
+Membuat program untuk mencari _convex hull_ dari suatu dataset dengan memanfaatkan algoritma divide and conquer.
 Spesifikasi program adalah sebagai berikut: 
 - Program meminta input kepada pengguna untuk memilih dataset yang akan dibuatkan _convex hull_-nya beserta dengan kolom-kolom data yang ini ditampilkan.
 - Program menyediakan empat pilihan dataset, yaitu dataset iris, dataset wine, dataset breast cancer, dataset digits.
