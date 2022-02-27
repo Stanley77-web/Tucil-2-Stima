@@ -65,7 +65,7 @@ if __name__ == "__main__":
         
         # Visualisasi convexhull
         plt.figure(figsize = (10, 6))
-        colors = ['b','r','g','y','c']
+        colors = ['b','r','g','y','c','m','y','k','bisque','gold','slategrey']
         plt.title(data.feature_names[n] + ' vs ' + data.feature_names[m])
         plt.xlabel(data.feature_names[n])
         plt.ylabel(data.feature_names[m])
@@ -73,9 +73,9 @@ if __name__ == "__main__":
             bucket = dataframe[dataframe['Target'] == i]
             bucket = bucket.iloc[:,[n,m]].values
             hull = myConvexHull(bucket)
-            plt.scatter(bucket[:, 0], bucket[:, 1], label=data.target_names[i])
+            plt.scatter(bucket[:, 0], bucket[:, 1], label=data.target_names[i], c=colors[i])
             for simplex in hull:
-                plt.plot(bucket[simplex, 0], bucket[simplex, 1], colors[i%5])
+                plt.plot(bucket[simplex, 0], bucket[simplex, 1], colors[i])
         plt.legend()
         plt.show()
         print("===================================")
