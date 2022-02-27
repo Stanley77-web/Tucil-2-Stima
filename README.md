@@ -12,7 +12,7 @@
 <!-- * [License](#license) -->
 
 ## Informasi Umum
-Membuat program untuk mencari _convex hull_ dari suatu dataset dengan memanfaatkan algoritma divide and conquer <br /> <br />
+Membuat program untuk mencari _convex hull_ dari suatu dataset dengan memanfaatkan algoritma divide and conquer.
 Spesifikasi program adalah sebagai berikut: 
 - Program meminta input kepada pengguna untuk memilih dataset yang akan dibuatkan _convex hull_-nya beserta dengan kolom-kolom data yang ini ditampilkan.
 - Program menyediakan empat pilihan dataset, yaitu dataset iris, dataset wine, dataset breast cancer, dataset digits.
@@ -31,8 +31,7 @@ Spesifikasi program adalah sebagai berikut:
   ![image](https://media.discordapp.net/attachments/941288781401698307/947415459941191691/unknown.png)
 
 ## Penggunaan
-***[Perhatikan]***
-Berikut ini cara menjalankan dan menggunakan program
+Berikut ini cara menjalankan dan menggunakan program:
 1. Prerequisite, install _package_ numpy, sklearn, pandas pada python dengan memasukkan _command line_ ```pip install numpy```, ```pip install scikit-learn```, ```pip install pandas``` pada terminal ```cmd``` atau ```powershell```
   
 2. Buka terminal ```cmd``` atau ```powershell``` pada path folder src dengan cara klik kanan pada area kosong kemudian klik ```Open in Windows Terminal```, seperti gambar berikut:
